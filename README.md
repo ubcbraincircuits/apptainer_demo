@@ -2,7 +2,6 @@
 Demonstration for using Apptainer with HPC resources (Compute Canada, UBC Sockeye).
 
 ## Folder/File Structure
-```
     • suite2p/ 
         ◦ suite2p_env.yml # environment setup file
         ◦ suite2p_example.py # suite2p running file
@@ -16,7 +15,6 @@ Demonstration for using Apptainer with HPC resources (Compute Canada, UBC Sockey
                     ◦ stat.npy
                     ◦ data.bin
                     ◦ …
-```
 ## Apptainer Setup
     1. On a Linux machine, prepare an Apptainer image. An Apptainer image is a “container” made up of an operating system and packages. This “container” can access files and folders on your computer, meaning you can run code using this “container” instead of your own operating system. This is necessary for running conda environments on Compute Canada.
         ◦ Download Apptainer here (Linux only):
