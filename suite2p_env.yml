@@ -1,0 +1,11 @@
+name: suite2p_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=23.3.1
+  - python=3.9
+  - pip:
+    - suite2p[gui]
+    - 'suite2p[gui]'
+    - suite2p[io]
